@@ -37,8 +37,6 @@ M.setup = function(args)
                 table.insert(cmd, M.config.log_file)
             end
 
-            vim.notify("hl7-ls-nvim setup, cmd: " .. vim.inspect(cmd))
-
             vim.lsp.start({
                 name = 'hl7-ls',
                 cmd = cmd,

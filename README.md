@@ -2,6 +2,8 @@
 
 This is a plugin for Neovim that provides language server support for HL7 messages. It uses the [hl7-ls](https://github.com/hamaluik/hl7-ls) language server to parse HL7 messages and provides several core LSP features for HL7 messages.
 
+![Demo](demo/demo.gif)
+
 ## Installation
 
 ### Prerequisites
